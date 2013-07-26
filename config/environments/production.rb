@@ -67,11 +67,10 @@ SampleApp::Application.configure do
 
   # add
   # config.consider_all_requests_local       = true
-  # config.action_dispatch.best_standards_support = :builtin
-  # config.serve_static_assets = true
-  # config.assets.compile = true
-  # config.assets.compress = false
-  # config.assets.debug = true
+   config.action_dispatch.best_standards_support = :builtin
+   config.serve_static_assets = true
+   config.assets.compile = true
+   config.assets.compress = false
 
   config.eager_load = false
 end
