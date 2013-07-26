@@ -66,15 +66,11 @@ SampleApp::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   # add
-  config.consider_all_requests_local       = true
-
-  config.action_dispatch.best_standards_support = :builtin
-
-  config.serve_static_assets = true
-
-  config.assets.compile = true
-  config.assets.compress = false
-
+  # config.consider_all_requests_local       = true
+  # config.action_dispatch.best_standards_support = :builtin
+  # config.serve_static_assets = true
+  # config.assets.compile = true
+  # config.assets.compress = false
   # config.assets.debug = true
 
   config.eager_load = false
