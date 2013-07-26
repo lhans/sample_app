@@ -64,4 +64,18 @@ SampleApp::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  # add
+  config.consider_all_requests_local       = true
+
+  config.action_dispatch.best_standards_support = :builtin
+
+  config.serve_static_assets = true
+
+  config.assets.compile = true
+  config.assets.compress = false
+
+  # config.assets.debug = true
+
+  config.eager_load = false
 end
